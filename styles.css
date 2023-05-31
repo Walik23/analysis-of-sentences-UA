@@ -1,0 +1,40 @@
+body {
+    background-color: #1a1a1a;
+    color: #CCCCCC;
+}
+
+input {
+    background-color: #333333;
+    color: #CCCCCC;
+    outline: none;
+}
+
+button,select,option {
+    background-color: #333333;
+    border: none;
+    color: #CCCCCC;
+    outline: none;
+}
+
+.light-mode{
+    background-color: #CCCCCC;
+    color: black;
+}
+
+input.light-mode, button.light-mode, select.light-mode, option.light-mode{
+    background-color: #EDEDED;
+}
+
+#choose {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#output {
+    border: 2px solid red;
+}
+
+.verb {
+    text-decoration: underline double;
+}
